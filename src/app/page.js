@@ -10,6 +10,9 @@ const HomePage = () => {
 // console.log("hello world");
 
 
+
+// throw new Error()
+
   return (
     <div>
     <h1>This is next app</h1>
