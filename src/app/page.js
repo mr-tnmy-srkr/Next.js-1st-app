@@ -2,6 +2,7 @@
 // "use client"
 // import { useState } from 'react'
 
+//@ holo absolute path ,,, ./../ eta relative path
 import Counter from "@/components/Counter/Counter";
 import Link from "next/link";
 
@@ -33,6 +34,9 @@ const HomePage = () => {
       </Link>
       <Link href="/news/blog">
         <button className="btn btn-accent">Blog</button>
+      </Link>
+      <Link href="/album">
+        <button className="btn btn-accent">Album</button>
       </Link>
     </div>
   );
